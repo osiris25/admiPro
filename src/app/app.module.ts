@@ -10,7 +10,9 @@ import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ProgressComponent } from './pages/progress/progress.component';
-import { GraficalComponent } from './pages/grafical/grafical.component';
+import { Grafica1Component } from './pages/grafica1/grafica1.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PagesComponent } from './pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +25,12 @@ import { GraficalComponent } from './pages/grafical/grafical.component';
     SidebarComponent,
     HeaderComponent,
     ProgressComponent,
-    GraficalComponent
+    Grafica1Component,
+    PagesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
