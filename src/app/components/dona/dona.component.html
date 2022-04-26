@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-body">
+        <h3>{{titulo}}{{labels}}{{data}}</h3>
+        <div style="display: block">
+            <canvas baseChart
+            [data]="doughnutChartData"
+            [labels]="labels"
+            [type]="doughnutChartType">
+            </canvas>
+        </div>
+    </div>
+</div>
